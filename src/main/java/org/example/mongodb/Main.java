@@ -1,10 +1,11 @@
 package org.example.mongodb;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import org.example.mongodb.connection.MongoConect;
+
 public class Main {
     public static void main(String[] args) {
 
-
+        MongoConect conect = new MongoConect();
+        conect.mostrarTitulos();
     }
 }
