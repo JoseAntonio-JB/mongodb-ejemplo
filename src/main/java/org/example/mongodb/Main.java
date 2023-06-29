@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         MongoConect conect = new MongoConect();
-        conect.mostrarTitulos();
+        System.out.println(conect.collectionElementsNumber( conect.getCollection("empleados","fakedatas")));
     }
 }
